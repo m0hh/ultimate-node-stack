@@ -5,6 +5,7 @@ const app = express();
 app.use(morgan('dev'));
 
 app.get('/', (req,res) => {
+    debugger; // eslint-disable-line no-debugger
     res.json({hello:'momosssoso'});
 })
 
